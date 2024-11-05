@@ -1,0 +1,351 @@
+[
+    {
+        "_id": "6721ad6319df85f39d06b861",
+        "beneficiario_id": "1",
+        "nome": "Jo\u00e3o Silva",
+        "idade": 45,
+        "localizacao": "S\u00e3o Paulo, SP",
+        "historico_saude": [
+            {
+                "ano": 2022,
+                "diagnostico": "Hipertens\u00e3o",
+                "tratamento": "Medicamento X"
+            },
+            {
+                "ano": 2023,
+                "diagnostico": "Diabetes Tipo 2",
+                "tratamento": "Insulina"
+            }
+        ],
+        "CID": "E11",
+        "condicoes_atendimento": [
+            "Hipertens\u00e3o",
+            "Diabetes"
+        ],
+        "preferencias": {
+            "tipo_atendimento": "Ambulat\u00f3rio",
+            "proximidade": true,
+            "custo": "baixo"
+        },
+        "provedores_proximos": [
+            {
+                "nome": "Cl\u00ednica Boa Sa\u00fade",
+                "especialidade": "Cardiologia",
+                "custo_estimado": 120
+            },
+            {
+                "nome": "Hospital Vida",
+                "especialidade": "Endocrinologia",
+                "custo_estimado": 200
+            }
+        ],
+        "data_ultima_consulta": "2024-09-15",
+        "custo_estimado": 150
+    },
+    {
+        "_id": "6721ad6319df85f39d06b862",
+        "beneficiario_id": "2",
+        "nome": "Maria Santos",
+        "idade": 30,
+        "localizacao": "Rio de Janeiro, RJ",
+        "historico_saude": [
+            {
+                "ano": 2021,
+                "diagnostico": "Asma",
+                "tratamento": "Inalador"
+            },
+            {
+                "ano": 2022,
+                "diagnostico": "Alergia Alimentar",
+                "tratamento": "Dieta"
+            }
+        ],
+        "CID": "J45",
+        "condicoes_atendimento": [
+            "Asma",
+            "Alergia Alimentar"
+        ],
+        "preferencias": {
+            "tipo_atendimento": "Ambulat\u00f3rio",
+            "proximidade": true,
+            "custo": "baixo"
+        },
+        "provedores_proximos": [
+            {
+                "nome": "Hospital Municipal",
+                "especialidade": "Pediatria",
+                "custo_estimado": 100
+            }
+        ],
+        "data_ultima_consulta": "2024-08-10",
+        "custo_estimado": 80
+    },
+    {
+        "_id": "6721ad6319df85f39d06b863",
+        "beneficiario_id": "3",
+        "nome": "Carlos Pereira",
+        "idade": 55,
+        "localizacao": "Salvador, BA",
+        "historico_saude": [
+            {
+                "ano": 2020,
+                "diagnostico": "Artrite",
+                "tratamento": "Fisioterapia"
+            },
+            {
+                "ano": 2023,
+                "diagnostico": "Colesterol Alto",
+                "tratamento": "Dieta"
+            }
+        ],
+        "CID": "M19",
+        "condicoes_atendimento": [
+            "Artrite",
+            "Colesterol Alto"
+        ],
+        "preferencias": {
+            "tipo_atendimento": "Hospitalar",
+            "proximidade": false,
+            "custo": "medio"
+        },
+        "provedores_proximos": [
+            {
+                "nome": "Cl\u00ednica Ortop\u00e9dica",
+                "especialidade": "Ortopedia",
+                "custo_estimado": 250
+            }
+        ],
+        "data_ultima_consulta": "2024-07-05",
+        "custo_estimado": 200
+    },
+    {
+        "_id": "6721ad6319df85f39d06b864",
+        "beneficiario_id": "4",
+        "nome": "Ana Oliveira",
+        "idade": 40,
+        "localizacao": "Curitiba, PR",
+        "historico_saude": [
+            {
+                "ano": 2019,
+                "diagnostico": "Enxaqueca",
+                "tratamento": "Medicamento Y"
+            }
+        ],
+        "CID": "G43",
+        "condicoes_atendimento": [
+            "Enxaqueca"
+        ],
+        "preferencias": {
+            "tipo_atendimento": "Ambulat\u00f3rio",
+            "proximidade": true,
+            "custo": "baixo"
+        },
+        "provedores_proximos": [
+            {
+                "nome": "Cl\u00ednica de Neurologia",
+                "especialidade": "Neurologia",
+                "custo_estimado": 150
+            }
+        ],
+        "data_ultima_consulta": "2024-06-12",
+        "custo_estimado": 100
+    },
+    {
+        "_id": "6721ad6319df85f39d06b865",
+        "beneficiario_id": "5",
+        "nome": "Luiz Ferreira",
+        "idade": 65,
+        "localizacao": "Bras\u00edlia, DF",
+        "historico_saude": [
+            {
+                "ano": 2021,
+                "diagnostico": "Hipertens\u00e3o",
+                "tratamento": "Medicamento X"
+            },
+            {
+                "ano": 2023,
+                "diagnostico": "Diabetes Tipo 2",
+                "tratamento": "Insulina"
+            }
+        ],
+        "CID": "E11",
+        "condicoes_atendimento": [
+            "Hipertens\u00e3o",
+            "Diabetes"
+        ],
+        "preferencias": {
+            "tipo_atendimento": "Hospitalar",
+            "proximidade": false,
+            "custo": "alto"
+        },
+        "provedores_proximos": [
+            {
+                "nome": "Hospital do Cora\u00e7\u00e3o",
+                "especialidade": "Cardiologia",
+                "custo_estimado": 350
+            }
+        ],
+        "data_ultima_consulta": "2024-05-25",
+        "custo_estimado": 300
+    },
+    {
+        "_id": "6721ad6319df85f39d06b866",
+        "beneficiario_id": "6",
+        "nome": "Rita Gomes",
+        "idade": 22,
+        "localizacao": "Manaus, AM",
+        "historico_saude": [
+            {
+                "ano": 2022,
+                "diagnostico": "Infec\u00e7\u00e3o Urin\u00e1ria",
+                "tratamento": "Antibi\u00f3tico"
+            }
+        ],
+        "CID": "N39",
+        "condicoes_atendimento": [
+            "Infec\u00e7\u00e3o Urin\u00e1ria"
+        ],
+        "preferencias": {
+            "tipo_atendimento": "Ambulat\u00f3rio",
+            "proximidade": true,
+            "custo": "baixo"
+        },
+        "provedores_proximos": [
+            {
+                "nome": "Cl\u00ednica Sa\u00fade da Mulher",
+                "especialidade": "Ginecologia",
+                "custo_estimado": 100
+            }
+        ],
+        "data_ultima_consulta": "2024-09-01",
+        "custo_estimado": 90
+    },
+    {
+        "_id": "6721ad6319df85f39d06b867",
+        "beneficiario_id": "7",
+        "nome": "Paulo Martins",
+        "idade": 35,
+        "localizacao": "Recife, PE",
+        "historico_saude": [
+            {
+                "ano": 2023,
+                "diagnostico": "Apendicite",
+                "tratamento": "Cirurgia"
+            }
+        ],
+        "CID": "K35",
+        "condicoes_atendimento": [
+            "Apendicite"
+        ],
+        "preferencias": {
+            "tipo_atendimento": "Hospitalar",
+            "proximidade": true,
+            "custo": "alto"
+        },
+        "provedores_proximos": [
+            {
+                "nome": "Hospital Geral",
+                "especialidade": "Cirurgia Geral",
+                "custo_estimado": 500
+            }
+        ],
+        "data_ultima_consulta": "2024-06-18",
+        "custo_estimado": 450
+    },
+    {
+        "_id": "6721ad6319df85f39d06b868",
+        "beneficiario_id": "8",
+        "nome": "Fernanda Lima",
+        "idade": 28,
+        "localizacao": "Porto Alegre, RS",
+        "historico_saude": [
+            {
+                "ano": 2022,
+                "diagnostico": "Sinusite",
+                "tratamento": "Descongestionante"
+            }
+        ],
+        "CID": "J32",
+        "condicoes_atendimento": [
+            "Sinusite"
+        ],
+        "preferencias": {
+            "tipo_atendimento": "Ambulat\u00f3rio",
+            "proximidade": true,
+            "custo": "baixo"
+        },
+        "provedores_proximos": [
+            {
+                "nome": "Cl\u00ednica Otorrino",
+                "especialidade": "Otorrinolaringologia",
+                "custo_estimado": 120
+            }
+        ],
+        "data_ultima_consulta": "2024-04-20",
+        "custo_estimado": 90
+    },
+    {
+        "_id": "6721ad6319df85f39d06b869",
+        "beneficiario_id": "9",
+        "nome": "Rodrigo Alves",
+        "idade": 50,
+        "localizacao": "Belo Horizonte, MG",
+        "historico_saude": [
+            {
+                "ano": 2023,
+                "diagnostico": "Gastrite",
+                "tratamento": "Anti\u00e1cido"
+            }
+        ],
+        "CID": "K29",
+        "condicoes_atendimento": [
+            "Gastrite"
+        ],
+        "preferencias": {
+            "tipo_atendimento": "Ambulat\u00f3rio",
+            "proximidade": false,
+            "custo": "medio"
+        },
+        "provedores_proximos": [
+            {
+                "nome": "Cl\u00ednica Gastro",
+                "especialidade": "Gastroenterologia",
+                "custo_estimado": 180
+            }
+        ],
+        "data_ultima_consulta": "2024-03-15",
+        "custo_estimado": 150
+    },
+    {
+        "_id": "6721ad6319df85f39d06b86a",
+        "beneficiario_id": "10",
+        "nome": "Clara Rodrigues",
+        "idade": 60,
+        "localizacao": "Fortaleza, CE",
+        "historico_saude": [
+            {
+                "ano": 2021,
+                "diagnostico": "Osteoporose",
+                "tratamento": "Suplementos"
+            }
+        ],
+        "CID": "M81",
+        "condicoes_atendimento": [
+            "Osteoporose"
+        ],
+        "preferencias": {
+            "tipo_atendimento": "Hospitalar",
+            "proximidade": true,
+            "custo": "medio"
+        },
+        "provedores_proximos": [
+            {
+                "nome": "Hospital Ortop\u00e9dico",
+                "especialidade": "Ortopedia",
+                "custo_estimado": 300
+            }
+        ],
+        "data_ultima_consulta": "2024-02-10",
+        "custo_estimado": 250
+    }
+]
